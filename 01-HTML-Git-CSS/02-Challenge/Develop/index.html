@@ -1,17 +1,30 @@
+<!--This is your header for the page and will set your tytle and links to your stylesheet-->
+
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
+
+    <!--fixed DOCTYPE for browser compatibility-->
+    <!--Fixed title to match company name-->
+
 </head>
 
-<body>
+ <main> <!--Indicates the main section between header and footer-->
+
+    <body>
     <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1><span class="seo">Horiseon</span></h1>
+
+        <!--Cleaned up name within span tags-->
+
         <div>
             <ul>
+                
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -26,9 +39,13 @@
     </div>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!--Hero Image-->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
+
+            <!--Fixed link to direct to SEO section (ID and Class)-->
+
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
@@ -48,6 +65,9 @@
             </p>
         </div>
     </div>
+
+    <!--Benefits of company-->
+
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -71,6 +91,12 @@
             </p>
         </div>
     </div>
+    </body>
+   
+</main>
+
+    <!--Ends main section before footer-->
+    
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
